@@ -3,9 +3,9 @@ package zw.co.afrosoft.controller;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
+@RequestMapping("/api/v1/afrosoft")
 public class HomeController {
 
-    @GetMapping("/")
     public String home(){
         return ("<h1>Welcome To the Home Page</h1>");
     }
@@ -17,6 +17,6 @@ public class HomeController {
 
     @GetMapping("/admin")
     public String admin(){
-        return "Welcome Admin";
+        return ("<h1>Welcome Admin</h1>");
     }
 }
