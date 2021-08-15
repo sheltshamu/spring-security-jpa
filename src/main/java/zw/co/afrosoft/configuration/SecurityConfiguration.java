@@ -1,4 +1,4 @@
-package zw.co.afrosoft.main;
+package zw.co.afrosoft.configuration;
 
 import org.springframework.beans.factory.annotation.*;
 import org.springframework.context.annotation.*;

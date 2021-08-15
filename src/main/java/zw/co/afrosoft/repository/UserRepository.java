@@ -1,6 +1,7 @@
-package zw.co.afrosoft.main;
+package zw.co.afrosoft.repository;
 
 import org.springframework.data.jpa.repository.*;
+import zw.co.afrosoft.domain.*;
 
 import java.util.*;
 

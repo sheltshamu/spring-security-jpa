@@ -1,15 +1,16 @@
-package zw.co.afrosoft.main;
+package zw.co.afrosoft.service;
 
 import org.springframework.security.core.*;
 import org.springframework.security.core.authority.*;
 import org.springframework.security.core.userdetails.*;
+import zw.co.afrosoft.domain.User;
 
 import java.util.*;
 import java.util.stream.*;
 
 public class MyUserDetails implements UserDetails {
 
-    private  User user;
+    private User user;
     private String userName;
     private String password;
     private boolean active;

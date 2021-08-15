@@ -1,4 +1,4 @@
-package zw.co.afrosoft.main;
+package zw.co.afrosoft.controller;
 
 import org.springframework.web.bind.annotation.*;
 

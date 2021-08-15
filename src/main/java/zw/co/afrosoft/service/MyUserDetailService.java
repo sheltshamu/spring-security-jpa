@@ -1,8 +1,9 @@
-package zw.co.afrosoft.main;
+package zw.co.afrosoft.service;
 
 import org.springframework.security.core.userdetails.*;
 import org.springframework.stereotype.*;
-import zw.co.afrosoft.main.*;
+import zw.co.afrosoft.repository.*;
+import zw.co.afrosoft.domain.User;
 
 import java.util.*;
 
